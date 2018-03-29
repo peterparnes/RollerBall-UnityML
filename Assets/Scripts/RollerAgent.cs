@@ -101,7 +101,6 @@ public class RollerAgent : Agent {
         // Getting closer
         if (distanceToTarget < previousDistance)
         {
-            Debug.Log("dist smaller *************");
             AddReward(0.1f);
         } else {
             // AddReward(-0.05f);
